@@ -61,3 +61,5 @@ list_deal.pop('17.02.2022')
 
 #print all
 print(list_deal)
+
+#update test git
