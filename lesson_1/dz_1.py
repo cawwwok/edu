@@ -118,3 +118,17 @@ list_deal_2[new_dt].append(add_deal_4)
 #print_deal now
 print(list_deal_2[dt])
 
+#input add
+add_deal_date = input('Какая дата?')
+add_name = input ('Название ?')
+add_desc = input ('Описание')
+add_deal_input = {
+    add_deal_date: {
+        "name": add_name,
+        "desc": add_desc
+    }
+}
+#update list input
+list_deal_2.update(add_deal_input)
+print(list_deal_2)
+
