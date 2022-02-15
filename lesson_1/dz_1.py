@@ -62,4 +62,51 @@ list_deal.pop('17.02.2022')
 #print all
 print(list_deal)
 
-#update test git
+#add list deal 2
+list_deal_2 = {
+    '14.02.2022': [
+        {
+            "name": "купить молоко",
+            "desc": "простоквашино 2,5%"
+        },
+        {
+            "name": "купить пиво",
+            "desc": "оболонь"
+        },
+        {
+            "name": "хлеб",
+            "desc": "белый хлеб"
+        }
+    ],
+    '16.02.2022': [
+
+        {
+            "name": "tomato",
+            "desc": "cherry"
+        },
+        {
+            "name": "chips",
+            "desc": "cheese"
+        }
+    ],
+    '22.02.2022': [
+        {
+            "name": "pineapple",
+            "desc": "yellow"
+        }
+    ]
+}
+#print
+print(list_deal_2)
+add_deal_3 = {
+    dt: {
+        "name": "banana",
+        "desc": "small"
+    }
+}
+#update list deal
+list_deal_2.update(add_deal_3)
+
+#print_deal now
+print(list_deal_2[dt])
+
