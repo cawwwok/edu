@@ -107,6 +107,14 @@ add_deal_3 = {
 #update list deal
 list_deal_2.update(add_deal_3)
 
+#test append
+add_deal_4 = {
+        "name": "potato",
+        "desc": "big"
+    }
+new_dt = '14.02.2022'
+list_deal_2[new_dt].append(add_deal_4)
+
 #print_deal now
 print(list_deal_2[dt])
 
